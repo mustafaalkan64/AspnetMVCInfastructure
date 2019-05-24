@@ -1,14 +1,13 @@
 ﻿using AktifTelekom.DAL;
 using AktifTelekom.DAL.Uow;
+using AktifTelekomMVCProject.Domain;
 using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace AktifTelekomMVCProject.Business.Services
 {
-    public class UsersService: IGenericService<Users>
+    public class UsersService: IUserService
     {
         private readonly IUnitOfWork _uow;
         public UsersService(IUnitOfWork uow)

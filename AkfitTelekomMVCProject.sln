@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AktifTelekomMVCProject.DAL"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AktifTelekomMVCProject.Business", "AktifTelekomMVCProject.Service\AktifTelekomMVCProject.Business.csproj", "{860BD9B4-A3CF-4FF2-8DCD-A0FC3D889EB2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AktifTelekomMVCProject.Domain", "AktifTelekomMVCProject.Domain\AktifTelekomMVCProject.Domain.csproj", "{41DEED01-9FAB-4169-AFC5-D9F498F3C824}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{860BD9B4-A3CF-4FF2-8DCD-A0FC3D889EB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{860BD9B4-A3CF-4FF2-8DCD-A0FC3D889EB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{860BD9B4-A3CF-4FF2-8DCD-A0FC3D889EB2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{41DEED01-9FAB-4169-AFC5-D9F498F3C824}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41DEED01-9FAB-4169-AFC5-D9F498F3C824}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41DEED01-9FAB-4169-AFC5-D9F498F3C824}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41DEED01-9FAB-4169-AFC5-D9F498F3C824}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
