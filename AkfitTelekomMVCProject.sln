@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AkfitTelekomMVCProject", "A
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AkfitTelekomMVCProject.Tests", "AkfitTelekomMVCProject.Tests\AkfitTelekomMVCProject.Tests.csproj", "{146AA094-9E18-4E29-A211-8F6D1CD9052C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AktifTelekomMVCProject.DAL", "AktifTelekom.DAL\AktifTelekomMVCProject.DAL.csproj", "{1B856BAD-343A-4F0A-AADF-44B94FAFE06B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AktifTelekomMVCProject.Business", "AktifTelekomMVCProject.Service\AktifTelekomMVCProject.Business.csproj", "{860BD9B4-A3CF-4FF2-8DCD-A0FC3D889EB2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{146AA094-9E18-4E29-A211-8F6D1CD9052C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{146AA094-9E18-4E29-A211-8F6D1CD9052C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{146AA094-9E18-4E29-A211-8F6D1CD9052C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B856BAD-343A-4F0A-AADF-44B94FAFE06B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B856BAD-343A-4F0A-AADF-44B94FAFE06B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B856BAD-343A-4F0A-AADF-44B94FAFE06B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B856BAD-343A-4F0A-AADF-44B94FAFE06B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{860BD9B4-A3CF-4FF2-8DCD-A0FC3D889EB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{860BD9B4-A3CF-4FF2-8DCD-A0FC3D889EB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{860BD9B4-A3CF-4FF2-8DCD-A0FC3D889EB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{860BD9B4-A3CF-4FF2-8DCD-A0FC3D889EB2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

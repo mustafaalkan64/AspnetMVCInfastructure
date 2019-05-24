@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{1B856BAD-343A-4F0A-AADF-44B94FAFE06B}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>AktifTelekom.DAL</RootNamespace>
+    <AssemblyName>AktifTelekom.DAL</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Entities\AGENT.cs" />
+    <Compile Include="Entities\AgentCallLogs.cs" />
+    <Compile Include="Entities\AgentGroupHierarchies.cs" />
+    <Compile Include="Entities\AgentGroupHistories.cs" />
+    <Compile Include="Entities\AgentGroups.cs" />
+    <Compile Include="Entities\AGENTGRUP.cs" />
+    <Compile Include="Entities\AgentProcesses.cs" />
+    <Compile Include="Entities\AgentSetting.cs" />
+    <Compile Include="Entities\AgentStatusLogs.cs" />
+    <Compile Include="Entities\AgentTimeout.cs" />
+    <Compile Include="Entities\Appointments.cs" />
+    <Compile Include="Entities\AssignDetails.cs" />
+    <Compile Include="Entities\A_MAIL.cs" />
+    <Compile Include="Entities\A_MODUL.cs" />
+    <Compile Include="Entities\A_MUSTERIMODUL.cs" />
+    <Compile Include="Entities\A_YETKI.cs" />
+    <Compile Include="Entities\A_YETKIDETAY.cs" />
+    <Compile Include="Entities\CallHistories.cs" />
+    <Compile Include="Entities\CallResults.cs" />
+    <Compile Include="Entities\CallStatus.cs" />
+    <Compile Include="Entities\CallStatusLogs.cs" />
+    <Compile Include="Entities\CallTypes.cs" />
+    <Compile Include="Entities\cars.cs" />
+    <Compile Include="Entities\CheckSendCalls.cs" />
+    <Compile Include="Entities\Cities.cs" />
+    <Compile Include="Entities\ContactDesc.cs" />
+    <Compile Include="Entities\ContactGroup.cs" />
+    <Compile Include="Entities\ContactGroup2.cs" />
+    <Compile Include="Entities\ContactImportance.cs" />
+    <Compile Include="Entities\ContactLogs.cs" />
+    <Compile Include="Entities\ContactMails.cs" />
+    <Compile Include="Entities\ContactNotes.cs" />
+    <Compile Include="Entities\ContactPhotos.cs" />
+    <Compile Include="Entities\ContactRandevu.cs" />
+    <Compile Include="Entities\Contacts.cs" />
+    <Compile Include="Entities\contactsTask.cs" />
+    <Compile Include="Entities\CRM_Log.cs" />
+    <Compile Include="Entities\Customers.cs" />
+    <Compile Include="Entities\DeletedRecords.cs" />
+    <Compile Include="Entities\Enums.cs" />
+    <Compile Include="Entities\EnumValues.cs" />
+    <Compile Include="Entities\ExtensionCall.cs" />
+    <Compile Include="Entities\Firmalar.cs" />
+    <Compile Include="Entities\Hotels.cs" />
+    <Compile Include="Entities\Ilceler.cs" />
+    <Compile Include="Entities\InfoNumbers.cs" />
+    <Compile Include="Entities\Locations.cs" />
+    <Compile Include="Entities\Mailimza.cs" />
+    <Compile Include="Entities\MailSablon.cs" />
+    <Compile Include="Entities\Members.cs" />
+    <Compile Include="Entities\AktifTelekomDbContext.cs" />
+    <Compile Include="Entities\Notes.cs" />
+    <Compile Include="Entities\NumberInfos.cs" />
+    <Compile Include="Entities\Numbers.cs" />
+    <Compile Include="Entities\Numbers1.cs" />
+    <Compile Include="Entities\OutoDilerJops.cs" />
+    <Compile Include="Entities\Personels.cs" />
+    <Compile Include="GenericRepository\GenericRepository.cs" />
+    <Compile Include="GenericRepository\IGenericRepository.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Entities\RegionHierarchies.cs" />
+    <Compile Include="Entities\Regions.cs" />
+    <Compile Include="Entities\Resources.cs" />
+    <Compile Include="Entities\ResultTypes.cs" />
+    <Compile Include="Entities\RoomTypes.cs" />
+    <Compile Include="Entities\SablonList.cs" />
+    <Compile Include="Entities\SendSms.cs" />
+    <Compile Include="Entities\SentMessages.cs" />
+    <Compile Include="Entities\SmsRequest.cs" />
+    <Compile Include="Entities\StatusHistories.cs" />
+    <Compile Include="Entities\StatusNames.cs" />
+    <Compile Include="Entities\StatusType.cs" />
+    <Compile Include="Entities\SubscriberCallHistories.cs" />
+    <Compile Include="Entities\SubscriberComplaints.cs" />
+    <Compile Include="Entities\SubscriberLayoverHistories.cs" />
+    <Compile Include="Entities\Subscribers.cs" />
+    <Compile Include="Entities\Survey.cs" />
+    <Compile Include="Entities\t1.cs" />
+    <Compile Include="Entities\TapiCallStatus.cs" />
+    <Compile Include="Entities\TapiIncomingCalls.cs" />
+    <Compile Include="Entities\Tarifler.cs" />
+    <Compile Include="Entities\TaskDependencies.cs" />
+    <Compile Include="Entities\Tasks.cs" />
+    <Compile Include="Entities\User.cs" />
+    <Compile Include="Entities\Users.cs" />
+    <Compile Include="Entities\WhatIsLocked.cs" />
+    <Compile Include="Entities\XivrPortExtensions.cs" />
+    <Compile Include="Uow\IUnitOfWork.cs" />
+    <Compile Include="Uow\UnitOfWork.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
