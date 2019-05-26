@@ -7,8 +7,8 @@
     <ProjectGuid>{1B856BAD-343A-4F0A-AADF-44B94FAFE06B}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>AktifTelekom.DAL</RootNamespace>
-    <AssemblyName>AktifTelekom.DAL</AssemblyName>
+    <RootNamespace>AktifTelekomMVCProject.DAL</RootNamespace>
+    <AssemblyName>AktifTelekomMVCProject.DAL</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>

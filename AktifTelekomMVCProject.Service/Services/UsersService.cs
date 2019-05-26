@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace AktifTelekomMVCProject.Business.Services
 {
-    public class UsersService: IUserService
+    public class UsersService: IUsersService
     {
         private readonly IUnitOfWork _uow;
         public UsersService(IUnitOfWork uow)

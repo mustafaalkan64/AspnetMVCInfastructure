@@ -45,6 +45,15 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Autofac, Version=4.0.1.0, Culture=neutral, PublicKeyToken=17863af14b0044da, processorArchitecture=MSIL">
+      <HintPath>..\packages\Autofac.4.0.1\lib\net45\Autofac.dll</HintPath>
+    </Reference>
+    <Reference Include="Autofac.Integration.Mvc, Version=4.0.0.0, Culture=neutral, PublicKeyToken=17863af14b0044da, processorArchitecture=MSIL">
+      <HintPath>..\packages\Autofac.Mvc5.4.0.2\lib\net45\Autofac.Integration.Mvc.dll</HintPath>
+    </Reference>
+    <Reference Include="Autofac.Integration.WebApi, Version=4.2.1.0, Culture=neutral, PublicKeyToken=17863af14b0044da, processorArchitecture=MSIL">
+      <HintPath>..\packages\Autofac.WebApi2.4.2.1\lib\net45\Autofac.Integration.WebApi.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System" />
     <Reference Include="System.Data" />
@@ -189,6 +198,7 @@
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
+    <Compile Include="Controllers\UsersApiController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -270,6 +280,24 @@
     <None Include="packages.config" />
     <Content Include="Scripts\jquery-3.3.1.slim.min.map" />
     <Content Include="Scripts\jquery-3.3.1.min.map" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AktifTelekom.DAL\AktifTelekomMVCProject.DAL.csproj">
+      <Project>{1b856bad-343a-4f0a-aadf-44b94fafe06b}</Project>
+      <Name>AktifTelekomMVCProject.DAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\AktifTelekomMVCProject.Core\AktifTelekomMVCProject.Core.csproj">
+      <Project>{b2ce2112-6161-4ae5-91b3-b1a8407ad000}</Project>
+      <Name>AktifTelekomMVCProject.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\AktifTelekomMVCProject.Domain\AktifTelekomMVCProject.Domain.csproj">
+      <Project>{41deed01-9fab-4169-afc5-d9f498f3c824}</Project>
+      <Name>AktifTelekomMVCProject.Domain</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\AktifTelekomMVCProject.Service\AktifTelekomMVCProject.Business.csproj">
+      <Project>{860bd9b4-a3cf-4ff2-8dcd-a0fc3d889eb2}</Project>
+      <Name>AktifTelekomMVCProject.Business</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

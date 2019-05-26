@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace AktifTelekomMVCProject.Domain
 {
-    public interface IUserService: IGenericService<Users>
+    public interface IUsersService: IGenericService<Users>
     {
     }
 }
